@@ -29,6 +29,8 @@ const AddNote = ({ handleAddNote }) => {
       <div className="note-footer">
         <small>{characterLimit - noteText.length} Remaining</small>
         <button className="save" onClick={handleSaveClick}>Save</button>
+        <a href="http://192.168.137.56:5000"> Fryde </a>
+
       </div>
     </div>
   );
